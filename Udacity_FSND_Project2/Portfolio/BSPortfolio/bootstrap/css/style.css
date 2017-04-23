@@ -1,5 +1,17 @@
 body {
+    color: #5D2347;
     background-color: #DAD6A7;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
 }
 
 hr {
@@ -7,4 +19,20 @@ hr {
     height: 5px;
     color: #BCBBBB;
     background-color: #BCBBBB;
+}
+
+.text-muted {
+    color: #6B41BD;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
 }
