@@ -1,3 +1,9 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
     color: #5D2347;
     background-color: #DAD6A7;
@@ -10,6 +16,7 @@ img, embed, object, video {
 }
 
 nav a, button {
+    padding: 1.5em;
     min-width: 48px;
     min-height: 48px;
 }
