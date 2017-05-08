@@ -1,10 +1,10 @@
-<!DOCTYPE HTML>
+<!doctype html>
   <html lang="en">
     <head>
       <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+        <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -17,49 +17,62 @@
         <section class="container">
           <div class="row">
             <div class="col-md-6">
-              <img alt="Udacity logo" class="img-responsive title-logo" src="images/udacity_logo.png" width="100px" height="100px">
+              <img alt="udacity logo" class="img-responsive title-logo" src="images/udacity_logo.png">
             </div>
             <div class="col-md-6 text-right text-uppercase">
               <h1 class="text-thin title-super">Jason M. Hester</h1>
-              <h4>Full Stack Guru</h4>
+              <h2 class="subhead">Full Stack Guru</h2>
             </div>
           </div>
         </section>
       </header>
-        <section class="container">
+        <div role ="banner" class="container">
           <div class="row">
             <div class="col-md-12">
               <hr>
                 <img alt="Austin, TX" class="img-responsive" src="http://loremflickr.com/1000/350/Austin,Texas/all">
             </div>
           </div>
-        </section>
-        <section class="container">
-          <div class="row">
-            <div class="col-md-12 text-muted">
-              <h2>Featured Work</h2>
+        </div>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-muted">
+                <h2>Featured Work</h2>
+              </div>
             </div>
           </div>
-        </section>
-        <section class="container">
-          <nav role="navigation">
+        <div class="container">
+          <nav>
             <div class="row text-center">
-              <button type="button" class="col-md-4" data-toggle="modal" data-target="#project1"><img role="button" alt="Fried Tomatoes" class="img-responsive" src="http://loremflickr.com/300/200/Fried Tomatoes"><h3>Fried Tomatoes</h3></button>
-              <button type="button" class="col-md-4" data-toggle="modal" data-target="#project2"><img role="button" alt="Portfolio" class="img-responsive" src="http://loremflickr.com/300/200/Cat"><h3>Portfolio</h3></button>
-              <button type="button" class="col-md-4" data-toggle="modal" data-target="#project3"><img role="button" alt="Bokken" class="img-responsive" src="http://loremflickr.com/300/200/Bokken"> <h3>Bokken</h3>
-              </button>
+              <div class="col-md-4">
+                <button type="button" data-toggle="modal" data-target="#project1"><img role="button" alt="fried tomatoes" class="img-responsive" src="http://loremflickr.com/300/200/FriedTomatoes">
+                </button>
+                  <h3>Fried Tomatoes</h3>
+              </div>
+              <div class="col-md-4">
+                <button type="button" data-toggle="modal" data-target="#project2"><img role="button" alt="portfolio" class="img-responsive" src="http://loremflickr.com/300/200/Cat">
+                </button>
+                  <h3>Portfolio</h3>
+              </div>
+              <div class="col-md-4">
+                <button type="button" data-toggle="modal" data-target="#project3"><img role="button" alt="bokken" class="img-responsive" src="http://loremflickr.com/300/200/Bokken">
+                </button>
+                  <h3>Bokken</h3>
+              </div>
             </div>
           </nav>
+        </div>
         </section>
   <!-- Modal -->
-        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="mymodallabel" aria-hidden="true">
           <div class="modal-dialog">
             <article class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Jason's Fried Tomatoes Movie Trailer Website</h4>
+                <h4 class="modal-title" id="mymodallabel">Jason's Fried Tomatoes Movie Trailer Website</h4>
               </div>
               <div class="modal-body">
-                <img class="img-responsive" src="images/Fried_Tomatoes.png" data-toggle="modal" data-target="#myModalLabel" alt="Fried Tomatoes">
+                <img class="img-responsive" src="images/Fried_Tomatoes.png" data-toggle="modal" data-target="#mymodallabel" alt="fried tomatoes">
                   <p>This was my first project in this class. I created a movie trailer website and learned a lot about Python, HTML, & CSS.</p>
               </div>
               <div class="modal-footer">
@@ -68,14 +81,14 @@
             </article>
           </div>
         </div>
-        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="mymodallabel2" aria-hidden="true">
           <div class="modal-dialog">
             <article class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel2">Jason's Portfolio Project</h4>
+                <h4 class="modal-title" id="mymodallabel2">Jason's Portfolio Project</h4>
               </div>
               <div class="modal-body">
-                <img class="img-responsive" src="images/udacity_logo.png" data-toggle="modal" data-target="#myModalLabel" alt="Udacity Logo">
+                <img class="img-responsive" src="images/udacity_logo.png" data-toggle="modal" data-target="#mymodallabel2" alt="udacity logo">
                   <p>This was my second project in this class. I learned a lot about responsive HTML, CSS, and JS Frameworks.</p>
               </div>
               <div class="modal-footer">
@@ -85,22 +98,24 @@
             </article>
             </div>
           </div>
-        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="mymodallabel3" aria-hidden="true">
           <div class="modal-dialog">
             <article class="modal-content">
               <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel3">Project 3</h4>
+                <h4 class="modal-title" id="mymodallabel3">Project 3</h4>
                   </div>
                   <div class="modal-body">
-                    <img class="img-responsive" src="images/udacity_logo.png" data-toggle="modal" data-target="#myModalLabel" alt="Udacity Logo">
-                    <p>This will be my third project in this class. I hope to learn a lot more about databases, python, and javascript.</p>
+                    <img class="img-responsive" src="images/udacity_logo.png" data-toggle="modal" data-target="#mymodallabel3" alt="udacity logo">
+                    <p>This will be my third project in this class. I hope to learn a lot more about databases, python, and javascript.
+                    </p>
                   </div>
       <footer>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </footer>
+            </article>
             </div>
-    </article>
+        </div>
     </body>
   </html>

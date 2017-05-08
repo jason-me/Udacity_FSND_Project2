@@ -48,6 +48,10 @@ button:focus {
     background-color: lightgray;
 }
 
+.subhead {
+    font-size: 18px;
+}
+
 .text-muted {
     color: #6B41BD;
 }
@@ -63,4 +67,6 @@ button:focus {
 .title-logo {
     margin-top: 20px;
     float: left;
+    width: 100px;
+    height: 100px;
 }

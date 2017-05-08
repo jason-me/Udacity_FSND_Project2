@@ -1491,7 +1491,7 @@ address {
   visibility: hidden;
 }
 .text-hide {
-  font: 0/0 a;
+  font-size: 0px;
   color: transparent;
   text-shadow: none;
   background-color: transparent;
