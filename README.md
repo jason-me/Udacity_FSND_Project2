@@ -17,4 +17,4 @@ This project will open a new browser window displaying my 3 most recent projects
 
 ### Accessibility
 -------------
-Accessibility features have been included to ensure the modal mindows are accessible.
+Accessibility features have been included to ensure the modal windows are accessible.
