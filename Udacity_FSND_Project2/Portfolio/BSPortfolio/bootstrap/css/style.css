@@ -15,10 +15,23 @@ img, embed, object, video {
     max-width: 100%;
 }
 
-nav a, button {
+nav, a {
     padding: 1.5em;
     min-width: 48px;
     min-height: 48px;
+}
+
+button {
+    background-color: #DAD6A7;
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 hr {
@@ -26,6 +39,13 @@ hr {
     height: 5px;
     color: #BCBBBB;
     background-color: #BCBBBB;
+}
+
+button:focus {
+    border: solid;
+    border-width: 2px;
+    border-color: #6B41BD;
+    background-color: lightgray;
 }
 
 .text-muted {
