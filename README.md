@@ -8,7 +8,8 @@ All you need is a browser and the bootstrap folder.
 ## How to Run Project
 ------------------
 1. Download the bootstrap branch to a folder of your choosing.
-2. Right click on the index.html file and run in a browser of your choice.
+2. Drill down into the "bootstrap" folder.
+3. Right click on the index.html file and run in a browser of your choice.
 
 ## Description
 -----------
